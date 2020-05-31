@@ -1,0 +1,7 @@
+def average(array):
+    # your code goes herevar = set(map(int, input().split(' ')))
+    dist = set(array)
+    return sum(dist)/len(dist)
+    
+
+
