@@ -1,0 +1,11 @@
+cube = lambda x:x**3 # complete the lambda function 
+
+def fibonacci(n):
+    # return a list of fibonacci numbers
+ initiallist = []
+ for i in range(n):
+    if i < 2:
+            initiallist += [i]          
+    else:
+            initiallist += [initiallist[-1] + initiallist[-2]]
+ return initiallist
